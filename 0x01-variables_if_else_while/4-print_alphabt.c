@@ -1,4 +1,4 @@
- #include <stdio.h>
+#include <stdio.h>
 
 /**
  * main - prints the alphabet in lowercase,
@@ -15,7 +15,7 @@ int main(void)
 		{
 			continue;
 		}
-        ch++;
+		ch++;
 	}
 	putchar('\n');
 	return (0);
