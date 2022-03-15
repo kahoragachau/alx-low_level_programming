@@ -1,0 +1,19 @@
+#include "main.h"
+
+/**
+* _isalpha: check to see if c is a letter lower or uppercase
+* @c: is a parameter
+* Return: 1 if c is a letter lowercase or uppercase
+*/
+
+int _isalpha(int c)
+{
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+	{
+		return (i);
+	}
+	else
+	{
+		return (0);
+	}
+}
