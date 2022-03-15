@@ -1,17 +1,17 @@
+
 #include "main.h"
 
 /**
- * main - Function that prints _putchar
- * Return: 0 value returned if program executes successfully
+ * print_alphabet - prints the alphabet, in lowercase, followed by a new line.
 */
 
-int main(void)
+void print_alphabet(void)
 {
-    int i;
+	int i;
 
-    for (i=97; i <= 122; i++)
-    {
-        _putchar(i);
-    }
+	for (i = 97; i <= 122; i++)
+	{
+		_putchar(i);
+	}
 	_putchar('\n');
 }
