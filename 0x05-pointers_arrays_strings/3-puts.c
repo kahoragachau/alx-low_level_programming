@@ -7,5 +7,5 @@
 
 void _puts(char *str)
 {
-	return ("\n", str);
+	_putchar ("\n", str);
 }
