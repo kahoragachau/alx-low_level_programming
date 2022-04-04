@@ -1,6 +1,18 @@
 #include "main.h"
 
-char *_memsest(char *s __attribute__((unused)), char b __attribute__((unused)), unsigned int n __attribute__((unused)))
+/**
+ * _memset - fills memory with a constant byte,
+ * @s: memory area.
+ * @b: constant byte.
+ * @n: bytes filled.
+ * Return: the pointer to dest.
+ */
+char *_memset(char *s, char b, unsigned int n)
 {
-	return (0);
+	unsigned int i;
+
+	for (i = 0; i < n; i++)
+		*(s + i) =  b;
+
+	return (s);
 }
