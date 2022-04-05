@@ -1,12 +1,13 @@
+
+  
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
-
 /**
- * main - the main function
- * @argc: argument count
- * @argv: Argument vector
- * Return: 0 if successful
+ * main - adds positive numbers.
+ * @argc: number of command line arguments.
+ * @argv: array that contains the program command line arguments.
+ * Return: 0 - success.
  */
 int main(int argc, char *argv[])
 {
@@ -24,6 +25,6 @@ int main(int argc, char *argv[])
 		}
 		add += atoi(argv[i]);
 	}
-	print("%d\n", add);
+	printf("%d\n", add);
 	return (0);
 }
