@@ -3,7 +3,7 @@
 
 /**
  * free_grid - function to free 2 dimensonal array after creation
- * @**grid: the grid pointer
+ * @grid: the grid pointer
  * @height: the height parameter
  */
 void free_grid(int **grid, int height)
