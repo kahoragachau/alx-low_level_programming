@@ -4,7 +4,7 @@
 /**
  * struct dog - a dog characteristics
  * @name: the first member
- * @age: the second memeber
+ * @age: the second member
  * @owner: the third member
  * 
  * Description: Additional description
@@ -13,7 +13,7 @@
 struct dog
 {
 	char *name;
-	float *age;
+	float age;
 	char *owner;
 };
 
