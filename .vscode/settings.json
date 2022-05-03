@@ -1,0 +1,8 @@
+{
+    "terminal.integrated.env.linux": {
+    
+    },
+    "terminal.integrated.enablePersistentSessions": true,
+    "terminal.integrated.fontFamily": "PowerlineSymbols",
+    "terminal.integrated.fontSize": 14
+}
