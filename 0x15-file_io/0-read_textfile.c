@@ -4,7 +4,7 @@
  * read_textfile - eads a text file and prints it to the std output
  * @filename: target file to be read
  * @lettters: the number of letters to be read
- * 
+ *
  * Return: the number of letter to be printed, prints 0 if it fails
  */
 
